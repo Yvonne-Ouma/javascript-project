@@ -28,8 +28,10 @@ function two(){
 }
 
 function three(){
-  var call = one() + two();
-  return call;
+  var call = one();
+  result = one();
+  var results= two();
+    return results;
 }
 
   console.log(three());
